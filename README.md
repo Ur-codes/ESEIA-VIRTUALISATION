@@ -47,6 +47,20 @@ image: dockersamples/examplevotingapp_worker
 
 This solution uses Python, Node.js, .NET, with Redis for messaging and Postgres for storage.
 
+Be on your directory and run the app:
+
+```shell
+docker compose up
+```
+
+The vote app will be running at http://localhost:5002, and the results will be at http://localhost:5001.
+
+To close the app:
+
+```shell
+docker compose down
+```
+
 ## Architecture
 
 ![Architecture diagram](architecture.png)
