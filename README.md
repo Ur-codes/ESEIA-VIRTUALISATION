@@ -6,12 +6,6 @@ A simple distributed application running across multiple Docker containers only 
 ## Requirement
 
 - The project need to be done inside a virtual machine that run docker and docker compose. Follow the docker documentation as we saw during the course for installation instructions if you don't have it yet.
-- Also you need to install those images to start the project :
-```shell
-docker pull ghcr.io/dockersamples/example-voting-app-result:after
-docker pull ghcr.io/dockersamples/example-voting-app-vote:after
-docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
-```
 - Make sure you install docker & docker compose before you start !
 For docker :
 - https://docs.docker.com/engine/install/ubuntu/
@@ -20,6 +14,13 @@ For docker :
 For docker compose :
 ```shell
 apt install docker-compose
+```
+
+- Also you need to install those images to start the project :
+```shell
+docker pull ghcr.io/dockersamples/example-voting-app-result:after
+docker pull ghcr.io/dockersamples/example-voting-app-vote:after
+docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
 ```
   
 ## Getting started
