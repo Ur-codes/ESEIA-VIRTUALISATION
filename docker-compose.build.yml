@@ -1,17 +1,17 @@
 services:
   vote:
-    image: dockersamples/examplevotingapp_vote
+    image: docker/vote
     depends_on:
       redis:
         condition: service_healthy 
     ports:
-      - "5000:80"
+      - "5002:80"
     networks:
       - front-tier
       - back-tier
 
   result:
-    image: dockersamples/examplevotingapp_result
+    image: docker/result
     depends_on:
       db:
         condition: service_healthy 
@@ -22,7 +22,7 @@ services:
       - back-tier
 
   worker:
-    image: dockersamples/examplevotingapp_worker
+    image: docker/worker
     depends_on:
       redis:
         condition: service_healthy 
