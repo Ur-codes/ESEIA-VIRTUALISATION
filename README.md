@@ -20,27 +20,26 @@ For docker compose :
 apt install docker-compose
 ```
 
-- You will need to install those images to start the project :
-```shell
-docker pull ghcr.io/dockersamples/example-voting-app-result:after
-docker pull ghcr.io/dockersamples/example-voting-app-vote:after
-docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
-```
-- Also you will need to put those line to add images to your docker-compose.build.yml
+- Also you will need to put those line to add local images to your docker-compose.build.yml
 
 For Vote :
 ```
-image: dockersamples/examplevotingapp_vote
+image: docker/vote
 ```
 
 For Result :
 ```
-image: dockersamples/examplevotingapp_result
+image: docker/result
 ```
 
 For Worker :
 ```
-image: dockersamples/examplevotingapp_worker
+image: docker/worker
+```
+
+After that adding these following local images, run this command :
+```shell
+docker-compose -f docker-compose.build.yml build
 ```
 
 ## Getting started
