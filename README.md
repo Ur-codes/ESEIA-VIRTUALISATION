@@ -22,7 +22,7 @@ apt install docker-compose
 
 To add local images (worker/result/vote) to your docker, run this command :
 ```shell
-docker-compose -f docker-compose.build.yml build
+docker-compose build
 ```
 
 ## Getting started
