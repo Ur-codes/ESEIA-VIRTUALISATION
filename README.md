@@ -53,13 +53,10 @@ deal with them in Docker at a basic level.
 
 - You need to fork this project to your own public github repository
 - You need to submit your own public github repository with the required files (`Dockerfile`, `compose.yml`, `docker-compose.build.yml` etc....).
-- This need to be done inside a VMWare EXSI host with 3 VMs. One will act as the master and the two others workers worker1 worker2.
 - Deploy the app first using docker compose
-- Deploy the app inside a kubernetes cluster
-- Make sure the kubernetes components are up and running (api-server, kubelet, kubeproxy and so on...)
 - This need to be in a team of 3 MAXIMUM. No single submission is allowed. Please do not use docker desktop to do the job
 - Take all the necessary screenshots that will showcase your work
-- The moodle is `G-[YOUR-CREW]`. You need to submit before the deadline.
+- The moodle is `G-47`. You need to submit before the deadline.
 - Make sure your team members name is visible inside your pdf file
 
 ### Usefull links
