@@ -1,6 +1,7 @@
 services:
   vote:
-    image: docker/vote
+    # Utilisation d'une image d'un dépot semblable car le build des dockerfile ne fonctionne pas
+    image: dockersamples/examplevotingapp_vote
     depends_on:
       redis:
         condition: service_healthy 
@@ -11,7 +12,8 @@ services:
       - back-tier
 
   result:
-    image: docker/result
+    # Utilisation d'une image d'un dépot semblable car le build des dockerfile ne fonctionne pas
+    image: dockersamples/examplevotingapp_result
     depends_on:
       db:
         condition: service_healthy 
@@ -22,7 +24,7 @@ services:
       - back-tier
 
   worker:
-    image: docker/worker
+    image: dockersamples/examplevotingapp_worker
     depends_on:
       redis:
         condition: service_healthy 
