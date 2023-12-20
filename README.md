@@ -14,8 +14,8 @@ docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
 ```
 - Make sure you install docker & docker compose before you start !
 For docker :
-https://docs.docker.com/engine/install/ubuntu/
-https://docs.docker.com/engine/install/linux-postinstall/
+- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.docker.com/engine/install/linux-postinstall/
 
 For docker compose :
 ```shell
