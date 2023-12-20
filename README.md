@@ -20,13 +20,29 @@ For docker compose :
 apt install docker-compose
 ```
 
-- Also you need to install those images to start the project :
+- You will need to install those images to start the project :
 ```shell
 docker pull ghcr.io/dockersamples/example-voting-app-result:after
 docker pull ghcr.io/dockersamples/example-voting-app-vote:after
 docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
 ```
-  
+- Also you will need to put those line to add images to your docker-compose.build.yml
+
+For Vote :
+```
+image: dockersamples/examplevotingapp_vote
+```
+
+For Result :
+```
+image: dockersamples/examplevotingapp_result
+```
+
+For Worker :
+```
+image: dockersamples/examplevotingapp_worker
+```
+
 ## Getting started
 
 This solution uses Python, Node.js, .NET, with Redis for messaging and Postgres for storage.
