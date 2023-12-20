@@ -7,6 +7,7 @@ A simple distributed application running across multiple Docker containers only 
 
 - The project need to be done inside a virtual machine that run docker and docker compose. Follow the docker documentation as we saw during the course for installation instructions if you don't have it yet.
 
+
 - Make sure you install docker & docker compose before you start !
 For docker :
 - https://docs.docker.com/engine/install/ubuntu/
