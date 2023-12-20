@@ -9,6 +9,8 @@ A simple distributed application running across multiple Docker containers only 
 
 
 - Make sure you install docker & docker compose before you start !
+
+
 For docker :
 - https://docs.docker.com/engine/install/ubuntu/
 - https://docs.docker.com/engine/install/linux-postinstall/
