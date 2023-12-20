@@ -1,7 +1,7 @@
 # ESEIA-VIRTUALISATION
 # HumansBestFriend app? CATs or DOGs ?
 
-A simple distributed application running across multiple Docker containers.
+A simple distributed application running across multiple Docker containers only for linux OS on this version.
 
 ## Requirement
 
@@ -12,7 +12,16 @@ docker pull ghcr.io/dockersamples/example-voting-app-result:after
 docker pull ghcr.io/dockersamples/example-voting-app-vote:after
 docker pull ghcr.io/dockersamples/example-voting-app-worker:latest
 ```
+- Make sure you install docker & docker compose before you start !
+For docker :
+https://docs.docker.com/engine/install/ubuntu/
+https://docs.docker.com/engine/install/linux-postinstall/
 
+For docker compose :
+```shell
+apt install docker-compose
+```
+  
 ## Getting started
 
 This solution uses Python, Node.js, .NET, with Redis for messaging and Postgres for storage.
