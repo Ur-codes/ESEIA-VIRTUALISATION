@@ -7,6 +7,9 @@ A simple distributed application running across multiple Docker containers only 
 
 - The project need to be done inside a virtual machine that run docker and docker compose. Follow the docker documentation as we saw during the course for installation instructions if you don't have it yet.
 
+- Please rename your project folder like these : esiea
+
+If you not do this, it will cause some problem for build the app
 
 - Make sure you install docker & docker compose before you start !
 
