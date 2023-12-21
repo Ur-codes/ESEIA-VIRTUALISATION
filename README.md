@@ -17,10 +17,11 @@ If you not do this, it will cause some problem for build the app
 For docker :
 - https://docs.docker.com/engine/install/ubuntu/
 - https://docs.docker.com/engine/install/linux-postinstall/
+- https://docs.docker.com/compose/install/
 
 For docker compose :
 ```shell
-apt install docker-compose
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.23.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 ```
 
 To add local images (worker/result/vote) to your docker, be on your directory to build the app and execute this command :
