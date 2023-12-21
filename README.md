@@ -25,7 +25,7 @@ apt install docker-compose
 
 To add local images (worker/result/vote) to your docker, be on your directory to build the app and execute this command :
 ```shell
-docker-compose build
+sudo docker-compose build
 ```
 
 ## Getting started
