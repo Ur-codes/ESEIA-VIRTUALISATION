@@ -26,7 +26,7 @@ sudo curl -SL https://github.com/docker/compose/releases/download/v2.23.3/docker
 
 To add local images (worker/result/vote) to your docker, be on your directory to build the app and execute this command :
 ```shell
-sudo docker-compose build
+docker compose build
 ```
 
 ## Getting started
