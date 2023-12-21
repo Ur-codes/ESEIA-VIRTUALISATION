@@ -20,7 +20,7 @@ For docker compose :
 apt install docker-compose
 ```
 
-To add local images (worker/result/vote) to your docker, run this command :
+To add local images (worker/result/vote) to your docker, be on your directory to build the app and execute this command :
 ```shell
 docker-compose build
 ```
